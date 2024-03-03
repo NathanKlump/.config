@@ -1,0 +1,69 @@
+{
+   "checksum": "2ca8d7ef404e4196deb359e73bce8d17",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13352575650041746",
+            "date_last_used": "0",
+            "guid": "fdd79023-2ded-421a-b7c6-67eae4d91c70",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Tavern — Yodayo",
+            "type": "url",
+            "url": "https://yodayo.com/tavern/?sort=trending&interval="
+         }, {
+            "date_added": "13353643473281417",
+            "date_last_used": "0",
+            "guid": "0a66f377-eb0b-4667-91fa-cce340bb1762",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Proton Mail: Sign-in",
+            "type": "url",
+            "url": "https://account.proton.me/login"
+         }, {
+            "date_added": "13353645587352826",
+            "date_last_used": "0",
+            "guid": "d77ebb1f-8919-4fa9-9e28-5466bb431d3e",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Sync.com | Control Panel",
+            "type": "url",
+            "url": "https://cp.sync.com/files"
+         } ],
+         "date_added": "13352575618409845",
+         "date_last_used": "0",
+         "date_modified": "13353645587352826",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13352575618409859",
+         "date_last_used": "0",
+         "date_modified": "13352575650041746",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13352575618409861",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

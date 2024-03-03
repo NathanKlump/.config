@@ -1,0 +1,6 @@
+2024/02/29-11:11:12.503 3952b Reusing MANIFEST /home/nklump/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/29-11:11:12.503 3952b Recovering log #88
+2024/02/29-11:11:12.503 3952b Reusing old log /home/nklump/.config/discord/Local Storage/leveldb/000088.log 
+2024/02/29-11:13:48.489 3952b Level-0 table #92: started
+2024/02/29-11:13:48.513 3952b Level-0 table #92: 742595 bytes OK
+2024/02/29-11:13:48.517 3952b Delete type=0 #88

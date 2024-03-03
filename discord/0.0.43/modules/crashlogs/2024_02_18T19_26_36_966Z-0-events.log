@@ -1,0 +1,49 @@
+2024-02-18T19:26:36.974Z 0: 
+
+----------------------------------------------
+2024-02-18T19:26:36.980Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/nklump/.config/discord/0.0.43/modules
+2024-02-18T19:26:37.001Z 2: ✅ webContents.created web1 ""
+2024-02-18T19:26:37.009Z 3: ✅ window.created win1 "discord"
+2024-02-18T19:26:37.263Z 4: ✅ webContents.did-finish-load web1
+2024-02-18T19:26:56.367Z 5: ✅ webContents.created web2 ""
+2024-02-18T19:26:56.376Z 6: ✅ window.created win2 "Discord"
+2024-02-18T19:27:08.842Z 7: ✅ webContents.did-finish-load web2
+2024-02-18T19:27:08.942Z 8: window.close win1
+2024-02-18T19:27:08.947Z 9: webContents.destroyed web1
+2024-02-18T19:27:08.949Z 10: window.closed win1
+2024-02-18T22:28:00.663Z 11: window.close win2
+2024-02-18T22:28:04.434Z 12: before-quit
+2024-02-18T22:28:04.438Z 13: window.close win2
+2024-02-18T22:28:04.460Z 14: webContents.destroyed web2
+2024-02-29T00:45:49.656Z 0: 
+
+----------------------------------------------
+2024-02-29T00:45:49.672Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/nklump/.config/discord/0.0.43/modules
+2024-02-29T00:45:49.708Z 2: ✅ webContents.created web1 ""
+2024-02-29T00:45:49.712Z 3: ✅ window.created win1 "discord"
+2024-02-29T00:45:49.961Z 4: ✅ webContents.did-finish-load web1
+2024-02-29T00:45:55.232Z 5: ✅ webContents.created web2 ""
+2024-02-29T00:45:55.241Z 6: ✅ window.created win2 "Discord"
+2024-02-29T00:45:57.634Z 7: ✅ webContents.did-finish-load web2
+2024-02-29T00:45:57.733Z 8: window.close win1
+2024-02-29T00:45:57.740Z 9: webContents.destroyed web1
+2024-02-29T00:45:57.742Z 10: window.closed win1
+2024-02-29T01:57:42.065Z 11: window.close win2
+2024-02-29T01:57:45.953Z 12: before-quit
+2024-02-29T01:57:45.957Z 13: window.close win2
+2024-02-29T01:57:46.009Z 14: webContents.destroyed web2
+2024-02-29T16:11:12.522Z 0: 
+
+----------------------------------------------
+2024-02-29T16:11:12.538Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/nklump/.config/discord/0.0.43/modules
+2024-02-29T16:11:12.541Z 2: ✅ webContents.created web1 ""
+2024-02-29T16:11:12.543Z 3: ✅ window.created win1 "discord"
+2024-02-29T16:11:12.688Z 4: ✅ webContents.did-finish-load web1
+2024-02-29T16:11:17.894Z 5: ✅ webContents.created web2 ""
+2024-02-29T16:11:17.900Z 6: ✅ window.created win2 "Discord"
+2024-02-29T16:11:19.367Z 7: ✅ webContents.did-finish-load web2
+2024-02-29T16:11:19.468Z 8: window.close win1
+2024-02-29T16:11:19.472Z 9: webContents.destroyed web1
+2024-02-29T16:11:19.474Z 10: window.closed win1
+2024-02-29T16:31:08.810Z 11: window.close win2
+2024-02-29T16:31:11.783Z 12: before-quit

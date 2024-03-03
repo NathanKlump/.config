@@ -1,0 +1,6 @@
+2024/03/02-16:30:15.378 49b Reusing MANIFEST /home/nklump/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2024/03/02-16:30:15.385 49b Recovering log #10
+2024/03/02-16:30:15.386 49b Reusing old log /home/nklump/.config/obsidian/Local Storage/leveldb/000010.log 
+2024/03/03-06:45:41.956 49b Level-0 table #14: started
+2024/03/03-06:45:41.977 49b Level-0 table #14: 7614 bytes OK
+2024/03/03-06:45:41.980 49b Delete type=0 #10
