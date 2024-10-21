@@ -39,8 +39,8 @@ exec --no-startup-id "xinput set-prop 'ELAN Touchpad and Keyboard Touchpad' 'lib
 exec --no-startup-id "xinput set-prop 'ELAN Touchpad and Keyboard Touchpad' 'libinput Tapping Enabled' 1"
 
 # wallpaper
-exec --no-startup-id "feh --bg-fill /home/nklump/Pictures/out-window.jpg"
-exec --no-startup-id "picom --config /home/nklump/.config/picom/picom.conf"
+exec --no-startup-id "feh --bg-fill ../assets/dark_shore.jpg"
+exec --no-startup-id "picom --config ../picom/picom.conf"
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
