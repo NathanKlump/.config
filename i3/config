@@ -28,7 +28,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -37,10 +37,11 @@ exec --no-startup-id nm-applet
 # Touch Gesture Enabled
 exec --no-startup-id "xinput set-prop 'ELAN Touchpad and Keyboard Touchpad' 'libinput Tapping Drag Enabled' 1" 
 exec --no-startup-id "xinput set-prop 'ELAN Touchpad and Keyboard Touchpad' 'libinput Tapping Enabled' 1"
+exec --no-startup-id "xinput set-prop 'ELAN Touchpad and Keyboard Touchpad' 'libinput Natural Scrolling Enabled' 1"
 
 # wallpaper
-exec --no-startup-id "feh --bg-fill ../assets/dark_shore.jpg"
-exec --no-startup-id "picom --config ../picom/picom.conf"
+exec --no-startup-id "feh --bg-fill /home/klump/.config/assets/dark_shore.jpg"
+exec --no-startup-id "picom --config /home/klump/.config/picom/picom.conf"
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -51,10 +52,6 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-
-# move tiling windows via drag & drop by left-clicking into the title bar,
-# or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+w exec alacritty
@@ -205,13 +202,16 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
 bar {
-    font pango:Inconsolata 14
-    status_command /usr/bin/bumblebee-status \
-        -m battery brightness time pasink pasource \
-        -p time.format="%H:%M" \
-        -t nord-powerline
     position top
+    font pango:monospace 14  # Increase font size
+    status_command i3status
+    colors {
+        background #000000      # Black background
+        statusline #FFFFFF      # White text
+        separator #CCCCCC       # Light gray separator
+    }
 }
 
 # Nathans Special Sauce

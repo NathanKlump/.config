@@ -1,3 +1,6 @@
-discord
-systemd
-BraveSoftware
+# Ignore everything
+*
+
+# Do not ignore these directories
+!i3/
+!nvim/
